@@ -1,0 +1,24 @@
+main {
+  width: 100%;
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    max-width: 300px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  img {
+    width: 100%;
+  }
+}
