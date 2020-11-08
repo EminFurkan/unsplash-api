@@ -18,7 +18,7 @@ export const Header = ({collections, setQuery}) => {
         <input
           type="text"
           placeholder="Query"
-          onChange={(e) => setData({...data, query: e.target.value})}
+          onChange={(e) => setData({...data, key: e.target.value})}
           onKeyUp={(e) => e.key === 'Enter' && setQuery(data)}
         />
         <select
